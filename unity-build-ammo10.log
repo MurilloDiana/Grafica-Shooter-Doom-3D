@@ -1,0 +1,369 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.2f1 (eb73d3b415a1) revision 15430611'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'es' Physical Memory: 16076 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-07-11T05:48:22.0689478Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-07-11T05:48:22Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Unity.exe
+-batchmode
+-quit
+-nographics
+-projectPath
+C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D
+-executeMethod
+ExamSceneBuilder.Build
+-logFile
+C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\unity-build-ammo10.log
+Successfully changed project path to: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D
+C:/Users/USER/Downloads/graficaShooter3D/ParcialPracticoShooter3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.Player connection [56236]  Target information:
+
+Player connection [56236]  * "[IP] 172.23.16.1 [Port] 55504 [Flags] 2 [Guid] 4104948474 [EditorId] 4104948474 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9060AH3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [56236]  * "[IP] 172.29.0.1 [Port] 55504 [Flags] 2 [Guid] 4104948474 [EditorId] 4104948474 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9060AH3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [56236]  * "[IP] 192.168.1.44 [Port] 55504 [Flags] 2 [Guid] 4104948474 [EditorId] 4104948474 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9060AH3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [56236] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [56236] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-7468" after 1.0 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-USER"
+[Licensing::IpcConnector] LicenseClient-USER channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-USER-6000.5.2 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 61996)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-6000.5.2" at "2026-07-11T05:48:29.4690485Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 61996, path: "C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              1c18b1a8d4fd45758499a1e4cf2c922a
+  Correlation Id:          710a1d3328928b6643d0e7c7f7b9b389
+  External correlation Id: 2280402402599376668
+  Machine Id:              7+DC0Klvk6dTU7So1fNBXYeXDRU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER-6000.5.2" (connect: 0.85s, validation: 0.97s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-6000.5.2-notifications" at "2026-07-11T05:48:30.4964485Z"
+[Licensing::Module] Connected to LicensingClient (PId: 61996, launch time: 0.03, total connection time: 1.88s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4673385707227-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.04
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 8.62s
+[Licensing::Module] Licensing is initialized (took 5.63s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 1 unused hashed content files
+Initialize engine version: 6000.5.2f1 (eb73d3b415a1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Downloads/graficaShooter3D/ParcialPracticoShooter3D/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005735 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.301 seconds
+Domain Reload Profiling: 3042ms
+	BeginReloadAssembly (478ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (66ms)
+	initialDomainReloadingComplete (235ms)
+	LoadAllAssembliesAndSetupDomain (932ms)
+		LoadAssemblies (458ms)
+		AnalyzeDomain (684ms)
+			TypeCache.Refresh (681ms)
+				TypeCache.ScanAssembly (639ms)
+	FinalizeReload (1313ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (300ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (463ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 38 packages:
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.ugui@2.5.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.ugui@3d1ea40b73ef)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\USER\Downloads\graficaShooter3D\ParcialPracticoShooter3D\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.03 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/USER/Downloads/graficaShooter3D/ParcialPracticoShooter3D
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 9s397ms
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[234/240    7s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\Scripts\RestartButton.cs(7,85): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+[235/240    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[236/240    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[237/240    1s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Editor\ExamSceneBuilder.cs(68,9): warning CS0618: 'NavMeshBuilder' is obsolete: 'UnityEditor NavMeshBuilder has been deprecated. Use UnityEngine.AI.NavMeshBuilder instead.'
+
+Assets\Editor\ExamSceneBuilder.cs(341,74): warning CS0618: 'StaticEditorFlags.NavigationStatic' is obsolete: 'Enum member StaticEditorFlags.NavigationStatic has been deprecated. The precise selection of the objects is now done using NavMeshBuilder.CollectSources() and NavMeshBuildMarkup.'
+[238/240    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[239/240    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (9.26 seconds), 6 items updated, 240 evaluated
+Assets\Scripts\RestartButton.cs(7,85): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\Editor\ExamSceneBuilder.cs(68,9): warning CS0618: 'NavMeshBuilder' is obsolete: 'UnityEditor NavMeshBuilder has been deprecated. Use UnityEngine.AI.NavMeshBuilder instead.'
+Assets\Editor\ExamSceneBuilder.cs(341,74): warning CS0618: 'StaticEditorFlags.NavigationStatic' is obsolete: 'Enum member StaticEditorFlags.NavigationStatic has been deprecated. The precise selection of the objects is now done using NavMeshBuilder.CollectSources() and NavMeshBuildMarkup.'
+Total cache size 34887064
+Total cache size after purge 34887064, took 00:00:00.1140504
+AssetDatabase: script compilation time: 11.344972s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.658 seconds
+Domain Reload Profiling: 3266ms
+	BeginReloadAssembly (838ms)
+		DisableScriptedObjects (101ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (61ms)
+	initialDomainReloadingComplete (156ms)
+	LoadAllAssembliesAndSetupDomain (505ms)
+		LoadAssemblies (528ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (41ms)
+				TypeCache.ScanAssembly (27ms)
+			BuildScriptInfoCaches (28ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1668ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (353ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (368ms)
+			AfterProcessingInitializeOnLoad (21ms)
+		AwakeInstancesAfterBackupRestoration (82ms)
+Starting new worker id: 0 with log in C:/Users/USER/Downloads/graficaShooter3D/ParcialPracticoShooter3D/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=c42834753e70715478ed2ff64210f055): Total: 15.441 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2050 ms
+		Asset DB Callback time: managed=256 ms, native=60 ms
+		Scripting: domain reloads=1, domain reload time=1679 ms, compile time=11354 ms, other=38 ms
+		Project Asset Count: scripts=205, non-scripts=137
+		Asset File Changes: new=0, changed=3, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 46.855ms
+	ApplyChangesToAssetFolders: 1.603ms
+	Scan: 92.858ms
+	Collect global state as custom dependencies: 1.581ms
+	OnSourceAssetsModified: 1.911ms
+	CategorizeScriptCompilationAssets: 3.119ms
+	ProcessAssetsWithTransientArtifactChanges: 30.817ms
+	CategorizeAssets: 9.613ms
+	CompileScripts: 11354.438ms
+	ImportOutOfDateAssets: 1723.174ms (1677.519ms without children)
+		UnloadImportedAssets: 0.341ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.225ms
+		ImportSchedulerStart: 45.079ms
+	PostProcessAllAssets: 268.069ms
+		VCAutoAddAssetPostprocess 8.143ms
+		PostProcessCallbackCreateDeferredMaterials 0.466ms
+		ShaderAssetModifiedCallback 0.361ms
+		WindowTitlePostprocess 0.264ms
+		MonoPostProcessAllAssets: 254.775ms
+			AssetPostprocessor.OnPostprocessAllAssets 62.385ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 55.305ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 39.027ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 20.585ms
+			SyncVS.PostprocessSyncProject 7.670ms
+			AssetChangedListener.OnPostprocessAllAssets 7.224ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 5.234ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 2.742ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 2.423ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.411ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 2.150ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.994ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.248ms
+			AssetEvents.OnPostprocessAllAssets 1.083ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 1.054ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.710ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.601ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.551ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.471ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.461ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.341ms
+	PostAssetChangesProfiler: 7.230ms
+	UnloadStreamsBegin: 3.895ms
+	GenerateScriptTypeHashes: 1.547ms
+	GenerateScriptTypeSerializationHashes: 3.529ms
+	Untracked: 1872.094ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 11.426ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Parcial Practico Shooter 3D
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 445 unused Assets / (0.7 MB). Loaded Objects now: 1092.
+Memory consumption went from 193.3 MB to 192.6 MB.
+Total: 20.078600 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.406700 ms MarkObjects: 18.034800 ms  DeleteObjects: 1.168900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (Unknown). Loaded Objects now: 1094.
+Memory consumption went from 187.9 MB to 187.9 MB.
+Total: 16.601100 ms (FindLiveObjects: 0.182600 ms CreateObjectMapping: 0.107300 ms MarkObjects: 16.290000 ms  DeleteObjects: 0.016800 ms)
+
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+EnsureUntitledSceneHasBeenSaved: Automated test that require Untitled scene to be saved should ensure that before test is run. 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ExamSceneBuilder:Build () (at Assets/Editor/ExamSceneBuilder.cs:68)
+
+[Assets/Editor/ExamSceneBuilder.cs line 68]
+
+Importing 'GUID: 46a9fa2c0556d914a8c767f71598f792 - Path: Assets/Materials/Weapon_Dark.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 46a9fa2c0556d914a8c767f71598f792' -> (Import Result ID: 'bcdc45ef2acf0a2cd772973857208723') in 0.038 seconds [static dependencies only]. Details - ImportResultOutputID=bffd169a95d3fba4ed7d122e9d54f8c6 DependenciesID=22d428f63888b33c049396bf3bdac597 StaticDependenciesID=6de784cb1f3562dec705b5ffea90af82 
+Importing 'GUID: f6daffffc69419747a4cbd0d760d79bc - Path: Assets/Materials/Wall_Concrete.mat' with importer (NativeFormatImporter)
+Imported 'GUID: f6daffffc69419747a4cbd0d760d79bc' -> (Import Result ID: 'dde91c14dc43c893afc76c333f6a51d6') in 0.007 seconds [static dependencies only]. Details - ImportResultOutputID=509af541d60705612d954d42161a3ca4 DependenciesID=7fd8b6f496b8a16a5cbc30bbf2a23457 StaticDependenciesID=efc16987bc610f47a1a0fda1e99a1efd 
+Importing 'GUID: 2843a6b85ce3d4b4882ee6b1a70f1140 - Path: Assets/Materials/Pickup_Cross_Red.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 2843a6b85ce3d4b4882ee6b1a70f1140' -> (Import Result ID: '5f4c0fe2efc358cf373619cb59e49d38') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=756aba356c45f5ac5abe4c8fffa59776 DependenciesID=b2b6ad2f4b796fd10aa0d820ac58f1fb StaticDependenciesID=9d6cd37f298f64fe0f4144157e52418e 
+Importing 'GUID: aac0ad1e51b9ab14485a44741d303dbe - Path: Assets/Materials/Floor_Metal.mat' with importer (NativeFormatImporter)
+Imported 'GUID: aac0ad1e51b9ab14485a44741d303dbe' -> (Import Result ID: '6fcd81b8613bb313fa8a362ff3590b13') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=3e18ae53ae28a222cce821f4214651f6 DependenciesID=a851be5af2a9300a8d5087ed9fbd2128 StaticDependenciesID=fc8cc4ca2b9c3909470b4661728c3369 
+Importing 'GUID: aafbb9f1c3405f1418efa95ab684a6e3 - Path: Assets/Materials/Pickup_Health.mat' with importer (NativeFormatImporter)
+Imported 'GUID: aafbb9f1c3405f1418efa95ab684a6e3' -> (Import Result ID: '8c40970521e85193c26104606f7b3be6') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=718266cda02f90110c183ba481a0cb4e DependenciesID=03f44b0ff17df6550395078dd9eca929 StaticDependenciesID=24d7aa1765ba9b1c9ff54501db1f8d7b 
+Importing 'GUID: bee362226963f93428ba601e64bd0798 - Path: Assets/Materials/Enemy_Red.mat' with importer (NativeFormatImporter)
+Imported 'GUID: bee362226963f93428ba601e64bd0798' -> (Import Result ID: '689bc945f8b92ca1a17b0d7311333d86') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=676ef85c452d407a58f7240680d4476a DependenciesID=c34ba053edd4753a582f434f74842936 StaticDependenciesID=6a122be86415e25d651c4a6abfe68e48 
+Importing 'GUID: de9b8efbcc39bc441b59eb44b4f39a69 - Path: Assets/Materials/Exit_Green.mat' with importer (NativeFormatImporter)
+Imported 'GUID: de9b8efbcc39bc441b59eb44b4f39a69' -> (Import Result ID: '946066b473446d436ad8d38297f2afca') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=2f10f4058595fb34c3911b3161754110 DependenciesID=e00b928106b9852fbccb9fc4c4925b3e StaticDependenciesID=491f9a043543d8f5aead4678c33f642a 
+Asset Pipeline Refresh (id=15cbc54463564594d98de273f1ddfb8f): Total: 0.206 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 42bf16691c1f1154a84b425f16032db7 - Path: Assets/Scenes/ParcialShooter3D.unity' with importer (DefaultImporter)
+Imported 'GUID: 42bf16691c1f1154a84b425f16032db7' -> (Import Result ID: '4e56794b65fdf4f05ff9639d8d3880af') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=99f74e7c280a31cce6380ed072dd0aad DependenciesID=8bd732738eaeb913063de7d400ef4c0d StaticDependenciesID=07fcebab2e9c7dbdd7b89ce82cc43249 
+Asset Pipeline Refresh (id=45bde88a18d2e4e4aa25809794ed5077): Total: 0.089 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=eff159d66023a8a4488dde7a093500f8): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Batchmode quit successfully invoked - shutting down!
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-USER-6000.5.2-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-USER-6000.5.2 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0
